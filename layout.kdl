@@ -1,0 +1,23 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+	tab name="mdbook server" {
+		pane cwd="frontend" command="mdbook" {
+			args "serve" "--open"
+		}
+	}
+
+	tab name="editor" {
+		pane cwd="./src" command="nvim" {
+			args "./"
+		}
+	}
+}
