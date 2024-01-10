@@ -1,6 +1,6 @@
 [book]
 authors = ["VESSE Léo"]
-language = "en"
+language = "fr"
 multilingual = false
 src = "src"
 title = "Documentation OpenBar"

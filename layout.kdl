@@ -15,8 +15,11 @@ layout {
 		}
 	}
 
+	tab name="lazygit" {
+		pane command="lazygit"
+	}
 	tab name="editor" {
-		pane cwd="./src" command="nvim" {
+		pane cwd="./src" command="hx" {
 			args "./"
 		}
 	}
