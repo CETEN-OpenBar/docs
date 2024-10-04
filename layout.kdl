@@ -23,4 +23,5 @@ layout {
 			args "./"
 		}
 	}
+	tab name="terminal"
 }

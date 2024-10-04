@@ -1,3 +1,3 @@
 # Cahier des charges
 
-L'application OpenBar, est 
+L'application OpenBar, est
